@@ -1,5 +1,6 @@
-## INSTALL uuidgen
+#!/bin/bash
 
+## previously INSTALL uuidgen on linux
 uid=$(uuidgen -t | cut -c 1-32)
 
 ## insert key:secret
